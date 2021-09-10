@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round:400,400i,700");
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    border: 4px;
+    box-shadow: 0px 14px 80px rgba(131, 135, 224, 0.5);
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    position: relative;
+}
+
+.card h2 {
+    margin: 0;
+    padding: 0 1rem;
+}
+
+.card .title {
+    padding: 1rem;
+    text-align: right;
+    color: #2d7ef9;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.img-avatar{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50%;
+    border: 6px solid white;
+    top: 15px;
+    left: 85px;
+}
+
+.img-avatar img {
+    border-radius: 50%;
+}
+
+.portada {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.card-text {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.title-total {
+    padding: 2.5em 1.5em 1.5em 1.5em;
+}
+
+path {
+    fill: white;
+}
+
+.img-portada {
+    width: 100%;
+}
+
+.card .desc {
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.card .actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+button {
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: #2d7ef9;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: #0365f6;
+}
