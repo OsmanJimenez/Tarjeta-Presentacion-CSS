@@ -40,3 +40,12 @@ Las contribuciones son bienvenidas. Si deseas agregar nuevas funcionalidades o m
 ## Licencia
 
 Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo `LICENSE`.
+
+## 👤 Autor
+
+**Osman Armando Jiménez Cortés**  
+[Portafolio profesional](https://osmanjimenez.com/)  
+[Perfil de GitHub](https://github.com/OsmanJimenez)
+
+Ingeniero de Sistemas y Desarrollador Full Stack especializado en desarrollo web y aplicaciones móviles.
+
